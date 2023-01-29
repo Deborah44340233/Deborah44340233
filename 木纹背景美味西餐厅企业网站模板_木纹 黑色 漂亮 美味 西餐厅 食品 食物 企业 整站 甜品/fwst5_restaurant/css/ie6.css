@@ -1,0 +1,63 @@
+/* Website template by # */
+/*------------------------- HEADER -------------------------*/
+#header {
+	margin-bottom: 115px;
+}
+#infos {
+	width: 800px;
+	padding: 20px 0px 0px;
+}
+#infos li.home {
+	width: 87px;
+}
+#infos li.phone {
+	width: 180px;
+}
+#infos li.address {
+	width: 470px;
+}
+
+#navigation li {
+	width: 80px;
+}
+#navigation li.main {
+	width: 140px;
+}
+#navigation li a span {
+	float:none;
+}
+
+/*------------------------- CONTENTS -------------------------*/
+#contents h2 {
+	width: 140px;
+}
+#contents h2.aboutus {
+	width: 135px;
+}
+#contents h2.main-course {
+	width: 200px;
+}
+#contents h2.contact-us {
+	width: 130px;
+}
+#contents h2.booking {
+	line-height: 60px;
+	width: 260px;
+}
+
+/*------------------------- Blog Page -------------------------*/
+#blogs div.posts , #blogs div.archives {
+	width: 240px;
+}
+#blogs div.section {
+	width: 680px;
+	margin-right: 276px;
+}
+
+/*------------------------- FOOTER -------------------------*/
+#footer div ul {
+	width: 360px;
+}
+#footer div span {
+	line-height: 22px;
+}

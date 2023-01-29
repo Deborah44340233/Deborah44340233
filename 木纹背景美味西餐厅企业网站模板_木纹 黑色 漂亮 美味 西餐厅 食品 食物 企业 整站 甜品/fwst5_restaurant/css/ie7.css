@@ -1,0 +1,47 @@
+/* Website template by # */
+/*------------------------- HEADER -------------------------*/
+#header {
+	margin-bottom: 115px;
+}
+
+#navigation li.main {
+	width: 150px;
+}
+#navigation li a span {
+	float:none;
+}
+
+/*------------------------- CONTENTS -------------------------*/
+#contents h2 {
+	width: 160px;
+}
+#contents h2.aboutus {
+	width: 135px;
+}
+#contents h2.main-course {
+	width: 250px;
+}
+#contents h2.contact-us {
+	width: 210px;
+}
+#contents h2.booking {
+	width: 260px;
+}
+
+/*------------------------- Blog Page -------------------------*/
+#blogs div.posts, #blogs div.archives {
+	width: 240px;
+}
+#blogs div.section {
+	width: 680px;
+	margin-right: 276px;
+}
+
+/*------------------------- FOOTER -------------------------*/
+#footer div ul {
+	width: 356px;
+}
+
+#footer div span {
+	line-height: 22px;
+}

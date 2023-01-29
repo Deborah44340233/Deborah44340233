@@ -1,0 +1,553 @@
+/* Website template by # */
+@font-face {
+    font-family: 'DynalightRegular';
+    src: url('../fonts/dynalight-regular-webfont.eot');
+    src: url('../fonts/dynalight-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dynalight-regular-webfont.woff') format('woff'),
+         url('../fonts/dynalight-regular-webfont.ttf') format('truetype'),
+         url('../fonts/dynalight-regular-webfont.svg#DynalightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background: #262523 url('../images/bg-body.jpg') no-repeat center top;
+	color:#ffffff;
+	margin:0px;
+}
+
+#infos li.home a, #infos li.phone a, #infos li.address a,
+#footer ul.advertise li.delivery a, #footer ul.advertise li.connect a.fb, #footer ul.advertise li.connect a.twitr {
+	background: url(../images/icons.gif) no-repeat;
+}
+#navigation li a, #contents h2 {
+	background: url(../images/braces-left.gif) no-repeat;
+}
+#navigation li a span, #contents h2 span {
+	background: url(../images/braces-right.gif) no-repeat;
+}
+
+/*-------------------------- Header --------------------------*/
+#header{
+	width: 960px;
+	margin: 0px auto 105px;
+	position: relative;
+}
+#header span.signboard {
+	float: right;
+	background: url(../images/schedule.gif) no-repeat;
+	display: block;
+	height: 125px;
+	width: 154px;
+	position: relative;
+	z-index: 9;
+}
+#header .tagline {
+	background: url(../images/breakfast-buffet.gif) no-repeat;
+	display: inline-block;
+	height: 80px;
+	width: 462px;
+}
+
+#infos {
+	display: inline-block;
+	width: 790px;
+	margin: 0px 0px 20px;
+	padding: 20px 0px 0px 10px;
+}
+#infos li {
+	float: left;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 17px;
+	list-style-type: none;
+	padding: 0px 10px;
+}
+#infos li a {
+	color:#ffffff;
+	display:block;
+	height: 21px; 
+	padding-top: 6px;
+	text-decoration:none;
+	text-shadow: 0 1px #252525, 0 1px #252525, 0 -1px #252525, -1px 0 #252525;
+}
+#infos li a:hover {
+	color: #6dcff6;
+}
+#infos li.home a {
+	background-position: 0 -73px;
+	padding-left: 35px;
+}
+#infos li.phone a {
+	background-position: 0 -147px;
+	padding-left: 39px;
+}
+#infos li.address a {
+	background-position: 0 -110px;
+	padding-left: 40px;
+}
+
+#logo {
+	background: url(../images/logo.gif) no-repeat;
+	display: inline-block;
+	height: 83px;
+	width: 330px;
+	margin-right: 5px;
+}
+
+#navigation {
+	background: url(../images/bg-navigation.gif) no-repeat left top ;
+	height: 32px;
+	width: 550px;
+	margin: 0px;
+	padding: 15px 10px;
+	position: absolute;
+	top: 92px;
+	right: 40px;
+}
+#navigation li {
+	float: left;
+	height: 30px;
+	list-style-type: none;
+	margin: 0px 3px;
+}
+#navigation li a {
+	background-position: 0 -90px;
+	color: #ffffff;
+	display: block;
+	font-family: 'DynalightRegular';
+	font-size: 25px;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 16px;
+	text-decoration: none;
+}
+#navigation li a span {
+	float: right;
+	background-position: right -90px;
+	display: inline-block;
+	height: 25px;
+	margin: 0px;
+	padding-right: 22px;
+}
+#navigation li a:hover, #navigation .current, #navigation .current a {
+	background-position: 0 -52px;
+	color: #ffca00;
+}
+#navigation li a:hover span, #navigation .current a span {
+	background-position: right -52px;
+}
+
+/*-------------------------- Contents --------------------------*/
+#body {
+	width: 960px;
+	margin: 0px auto 50px;
+}
+
+#featured {
+	height: 600px;
+	width: 960px;
+	margin: 0px;
+	padding: 0px;
+}
+#featured li {
+	float:left;
+	list-style-type: none;
+}
+#featured li a {
+	display: block;
+}
+#featured li.main a {
+	background: url(../images/main.jpg) no-repeat 0 0;
+	height: 335px;
+	width: 540px;
+}
+#featured li.main a:hover { 
+	background: url(../images/main-hover.jpg) no-repeat 0 0;
+}
+
+#featured li.drinks a {
+	background: url(../images/drinks.jpg) no-repeat 0 0;
+	height: 335px;
+	width: 420px;
+}
+#featured li.drinks a:hover {
+	background: url(../images/drinks-hover.jpg) no-repeat 0 0;
+}
+
+#featured li.entree a {
+	background: url(../images/entree.jpg) no-repeat 0 0;
+	height: 255px;
+	width: 540px;
+}
+#featured li.entree a:hover {
+	background: url(../images/entree-hover.jpg) no-repeat 0 0;
+}
+
+#featured li.desserts a {
+	background: url(../images/desserts.jpg) no-repeat 0 0;
+	height: 255px;
+	width: 420px;
+}
+#featured li.desserts a:hover {
+	background: url(../images/desserts-hover.jpg) no-repeat 0 0;
+}
+
+#contents {
+	background-color: #ffffff;
+	color: #373737;
+	line-height: 24px;
+	border-top: 2px outset #393939;
+	border-bottom: 2px inset #393939;
+	margin: 0px 0px 50px;
+	padding: 22px 0px;
+	text-align: center;
+}
+#contents h2 {
+	background-position: 0 0;
+	color: #265d84;
+	display: inline-block;
+	font-family: 'DynalightRegular';
+	font-size: 41px;
+	height: 41px;
+	line-height: 41px;
+	margin: 0px 0px 42px;
+	padding-left: 22px;
+}
+#contents h2 span { 
+	background-position: right 0;
+	display: block;
+	height: 41px;
+	padding-right: 20px;
+}
+
+#contents p {
+	letter-spacing: 1px;
+	margin: 0px;
+	padding: 0 10px 24px;
+	text-align: justify;
+}
+#contents p a {
+	color: #373737;
+	font-weight: bold;
+}
+
+#contents div {
+	width: 960px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+/*------------------------- Contact us page -------------------------*/
+#contents div table.contact-details {
+	float: left;
+	line-height: 24px;
+	width: 510px;
+	margin: 0px 0px 20px 10px;
+	text-align: left;
+}
+#contents div table.contact-details td {
+	padding-right: 20px;
+	vertical-align: top;
+}
+ 
+/*------------------------- book-events us page -------------------------*/
+#booking form {
+	display: inline-block;
+	height: 401px;
+	width: 960px;
+}
+#booking form table {
+	float: left;
+	width: 940px;
+	border-collapse: separate;
+	margin: 0px 0px 0px 10px;
+	padding: 6px 0 0;
+	text-align: left;
+}
+#booking form table span {
+	display: block;
+}
+#booking form table td {
+	line-height: 24px;
+	padding: 6px 5px;
+	vertical-align: center;
+}
+#booking form table td textarea {
+	height: 179px;
+	width: 100%;
+	border: 1px solid #000000;
+	margin: 0 0 14px;
+}
+#booking form table td input {
+	width: 100%;
+	border: 1px solid #000000;
+}
+#booking form table td input.number {
+	width: 60px;
+}
+#booking form table td input.radio {
+	width: 16px;
+	border: 0px;
+}
+#booking form table td input.button {
+	float: right;
+	background-color: transparent;
+	color: #4b4b4b;
+	cursor: pointer;
+	font-family: Times New Roman;
+	font-size: 1em;
+	font-weight: bold;
+	width: 60px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*--------------------------About us Page --------------------------*/
+#aboutus h3 {
+	color: #292929;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0px 10px;
+	text-align: left;
+}
+#aboutus p {
+	color: #3e3e3e;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+#aboutus p a {
+	color: #383838;
+	font-weight: bold;
+}
+
+/*-------------------------- Menu Pages --------------------------*/
+#menus p, #menus p a, #booking p, #booking p a {
+	color: #333333;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0;
+}
+#menus h3 {
+	color: #265d84;
+	font-family: 'DynalightRegular';
+	font-size: 35px;
+	line-height: 35px;
+	font-weight: normal;
+	margin: 0px 0px 24px;
+	text-align: center;
+}
+#menus ul {
+	color: #393939;
+	display: inline-block;
+	margin: 0 0 42px;
+	padding: 0;
+}
+#menus ul li {
+	float: left;
+	list-style-type: none;
+	width: 480px;
+}
+#menus ul li ul {
+	margin: 0;
+	padding: 0px;
+}
+#menus ul li ul li {
+	float: left;
+	width: 210px;
+	margin: 0px;
+	padding: 0px 20px 0 10px;
+	text-align: left;
+}
+#menus .price {
+	float: right;
+}
+#menus ul li ul li p {
+	clear: both;
+	font-size: 0.9em;
+	font-style: italic;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: left;
+}
+
+/*------------------------- Main-course -------------------------*/
+#menus ul.main li {
+	float: left;
+	list-style-type: none;
+	width: 210px;
+	padding: 0px 10px;
+}
+#menus ul.main li ul li {
+	padding: 0;
+}
+
+/*------------------------- Blog Page -------------------------*/
+#blogs div.sidebar {
+	float: right;
+	width: 240px;
+	text-align: left;
+}
+#blogs div.sidebar h3 {
+	margin: 0;
+	text-transform: uppercase;
+}
+#contents #blogs div.sidebar ul li a {
+	color: #373737;
+	text-decoration: none;
+}
+#contents #blogs div.sidebar ul li a:hover {
+	color: #0e2934;
+}
+
+#blogs div.posts {
+	width: inherit;
+	margin: 0 0 48px;
+}
+#blogs div.posts ul {
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 0 15px;
+}
+
+#blogs div.archives {
+	width: inherit;
+}
+#blogs div.archives ul {
+	display: inline-block;
+	line-height: 24px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#blogs div.archives ul li {
+	float: left;
+	width: 120px;
+}
+
+#blogs div.section {
+	width: 680px;
+	margin-right: 280px;
+}
+#blogs div.section p {
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+#blogs div.section p b {
+	display: block;
+}
+
+/*------------------------- Footer -------------------------*/
+#footer	{
+	color: #949494;
+	font-family: Times New Roman;
+	width: 960px;
+	margin: 0 auto;
+}
+#footer ul.advertise {
+	display: inline-block;
+	width: 940px;
+	margin: 0px auto 41px;
+	padding: 0px 10px;
+}
+#footer ul.advertise li {
+	float: left;
+	background: url(../images/braces.gif) 15px 0 no-repeat;
+	list-style-type: none;
+	height: 180px;
+	width: 210px;
+	margin-right: 13px;
+	padding: 0px 45px;
+	text-align: center;
+	overflow: hidden;
+}
+#footer ul.advertise li h2 {
+	color: #6dcff6;
+	font-family: 'DynalightRegular', cursive;
+	font-size: 53px;
+	line-height: 53px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 6px 0;
+} 
+#footer ul.advertise li p, #footer ul.advertise li a {
+	color: #ffffff;
+	font-size: 1.2em;
+	line-height: 20px;
+	margin: 0px;
+	text-decoration: none;
+}
+
+#footer ul.advertise li.delivery a {
+	background-position: 170px 10px;
+	display: block;
+	width: 170px;
+	padding-right: 16px;
+	padding-top: 6px;
+	text-shadow: 1px 1px 1px #252525;
+}
+#footer ul.advertise li.event h2 {
+	width: 215px;
+}
+#footer ul.advertise li.connect a.fb {
+	background-position: 0 -26px;
+	display: inline-block;
+	height: 37px;
+	width: 17px;
+	margin-right: 8px;
+}
+#footer ul.advertise li.connect a.twitr {
+	background-position: 0 -184px;
+	display: inline-block;
+	height: 37px;
+	width: 49px;
+}
+#footer ul.advertise li p a, #footer ul.advertise li.delivery p a {
+	background: none;
+	display: inline;
+	font-style: oblique;
+	padding-right: 0px;
+}
+#footer ul.advertise li p a:hover {
+	color: #949494;
+}
+
+#footer div {
+	line-height: 24px;
+	text-align: center;
+}
+#footer div a {
+	color: #949494;
+	padding: 0px 10px;
+	text-decoration: none;
+}
+#footer div a:hover, #footer div ul li.selected a {
+	color: #ffffff;
+}
+#footer div ul {
+	display: inline-block;
+	height: 21px;
+	margin: 0px auto;
+	padding: 0px;
+}
+#footer div ul li {
+	float: left;
+	list-style-type: none;
+	text-align: center;
+}
+#footer div ul li a {
+	border-right: 1px solid #949494;
+}
+#footer div ul li.last a {
+	border: 0px;
+}
+#footer div span {
+	display: block;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+#footer div span a {
+	padding: 0px;
+}
